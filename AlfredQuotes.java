@@ -15,10 +15,10 @@ public class AlfredQuotes {
     }
     
     public String respondBeforeAlexis(String conversation) {
-        if(conversation.indexOf("Alfred") > -1) {
+        if(conversation.indexOf("Alfred") >= 0) {
         return "At your service. As you wish, naturally.";
         }
-        if(conversation.indexOf("Alexis") > -1) {
+        if(conversation.indexOf("Alexis") >= 0) {
         return "Right away, sir. She certainly isn't sophisticated enough for that.";
         }
         return "Right, and with that I shall retire.";
